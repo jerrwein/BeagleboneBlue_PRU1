@@ -1,6 +1,6 @@
 
 # The top-most name
-BASE_NAME := DSM2_Output_PWM
+BASE_NAME := dsmx_output_pwm
 
 # The all-inclusive binary to be run on host
 HOST_BIN := $(BASE_NAME)
@@ -89,4 +89,5 @@ clean	:
 	-rm -f pru1.elf pru1.map
 	-rm -f pru1_main.asm pru_hal.asm
 	-rm -f $(PRU1_BINS)
+
 
